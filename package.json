@@ -27,5 +27,8 @@
   },
   "dependencies": {
     "@orange4glace/vs-lib": "^1.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

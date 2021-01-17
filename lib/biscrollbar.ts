@@ -19,9 +19,9 @@ export class BiScrollbar {
 
   private size_: number;
   private start_: number;
-  get start() { return Math.round(this.start_); }
+  get start() { return this.start_; }
   private end_: number;
-  get end() { return Math.round(this.end_); }
+  get end() { return this.end_; }
 
   private el_: HTMLElement;
   private scrollEl_: HTMLElement;
