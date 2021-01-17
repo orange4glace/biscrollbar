@@ -28,13 +28,13 @@ module.exports = {
       lib: path.resolve(__dirname, 'lib'),
     },
   },
-  entry: './src/index.ts',
+  entry: './test/index.ts',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'test'),
     compress: true,
     port: 9001
   }
