@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "rootDir": "./lib",
+		"baseUrl": "./lib",
+    "removeComments": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "types"
+  },
+	"include": [
+		"./lib"
+	],
+	"exclude": [
+		"./node_modules/"
+	]
+}

@@ -1,0 +1,33 @@
+$namespace: ".o-biscrollbar";
+
+#{$namespace} {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: #363636;
+  user-select: none;
+}
+
+#{$namespace}-scrollbar {
+  position: absolute;
+  height: 100%;
+  background: #515151;
+}
+
+#{$namespace}-handle {
+  position: absolute;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #a9a9a9;
+  border-radius: 100%;
+  background: #515151;
+}
+
+#{$namespace}-handle-left {
+  left: 0;
+}
+
+#{$namespace}-handle-right {
+  right: 0;
+}
