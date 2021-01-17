@@ -1,7 +1,8 @@
 {
   "name": "@orange4glace/biscrollbar",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "A Premiere pro style Guide UI component",
+  "homepage": "https://github.com/orange4glace/biscrollbar",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "scripts": {
@@ -9,8 +10,8 @@
     "build": "rm -rf dist &&rm -rf types && webpack -c webpack.config.js && tsc -p tsconfig.types.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "orange4glace",
+  "license": "MIT",
   "devDependencies": {
     "@types/estree": "0.0.46",
     "css-loader": "^5.0.1",
